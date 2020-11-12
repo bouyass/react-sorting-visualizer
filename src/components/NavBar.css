@@ -1,0 +1,27 @@
+nav {
+    width: 100vw;
+    background-color: #0b0826;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.params {
+    display: flex;
+    width: 100;
+    gap:40px;
+    justify-content: center;
+}
+
+.param {
+    width: 30%;
+    display: flex;
+}
+
+.param .label {
+    width: 46%;
+    font-size: 1em;
+}
