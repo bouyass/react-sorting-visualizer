@@ -36,7 +36,7 @@ function SideBar(props) {
 
             <div onClick={props.triggerSort} className="sideBar-footer">
                 <hr />
-                <div className="sideBar-footer-button"> <PlayCircleFilledWhiteIcon /> <button> Start demo </button> </div>
+                <div className="sideBar-footer-button"> <PlayCircleFilledWhiteIcon /> <button disabled={props.running}> Start demo </button> </div>
             </div>
 
         </div>

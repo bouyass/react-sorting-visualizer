@@ -1,9 +1,14 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { Bar } from 'react-chartjs-2'
 import './SortView.css'
 
 function SortView(props) {
 
+    const[data, setData] = useState()
+
+    useEffect(() => {
+        setData(props.data)
+    },[])
     
     return (
         <div className="view-container">

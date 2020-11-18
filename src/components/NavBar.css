@@ -6,13 +6,17 @@ nav {
     flex-direction: column;
     color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+   
+}   
 
 .params {
     display: flex;
     width: 100;
-    gap:40px;
+    gap:200px;
     justify-content: center;
 }
 
@@ -25,3 +29,10 @@ nav {
     width: 46%;
     font-size: 1em;
 }
+
+.range-field {
+    display: flex;
+    gap: 20px;
+    font-size: 1.2em;
+}
+
